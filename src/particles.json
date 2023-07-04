@@ -280,7 +280,7 @@
       },
       "random": true,
       "size": false,
-      "speed": 1,
+      "speed": 1.1,
       "spin": {
         "acceleration": 0,
         "enable": false
