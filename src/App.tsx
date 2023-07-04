@@ -14,7 +14,9 @@ function App() {
     return (
         <div className="App">
             <Particles options={particlesOptions as ISourceOptions} init={particlesInit}/>
-
+            <div className="main">
+                hello
+            </div>
         </div>
     );
 }

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #tsparticles {
     position: fixed;
     height: 100%;
@@ -7,4 +11,8 @@
     left: 0;
     top: 0;
     z-index: -1;
+}
+
+.main {
+    color: white;
 }
