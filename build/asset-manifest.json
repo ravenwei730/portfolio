@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0094e93.css",
+    "main.js": "/static/js/main.3d738a2c.js",
+    "static/media/raven-profile.png": "/static/media/raven-profile.1795d78a2a0be386851f.png",
+    "static/media/tree.png": "/static/media/tree.adebe3d25e24c0b65686.png",
+    "static/media/arrow.svg": "/static/media/arrow.0b4e538b05cc87f22390abdd94caae79.svg",
+    "index.html": "/index.html",
+    "main.e0094e93.css.map": "/static/css/main.e0094e93.css.map",
+    "main.3d738a2c.js.map": "/static/js/main.3d738a2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0094e93.css",
+    "static/js/main.3d738a2c.js"
+  ]
+}
