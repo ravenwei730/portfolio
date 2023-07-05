@@ -20,7 +20,7 @@ function App() {
             {/* Page container */}
             <div id="top" className="page-container text-white h-">
                 {/* Navbar */}
-                <div className="nav-bar h-32 flex items-center justify-between" >
+                <div className="nav-bar h-28 flex items-center justify-between" >
                     <a href="#top" className="w-auto inline-block">
                         <img className="h-16 aspect-square ml-20" src={treeLogo} alt="" />
                     </a>
@@ -37,20 +37,26 @@ function App() {
                     <span className="text-sm tracking-wider">SCROLL TO SEE MORE</span>
                 </div>
                 {/* Center content */}
-                <div className="flex flex-col justify-center items-center space-y-12">
+                <div className="flex flex-col justify-center items-center">
                     {/* Portrait photo */}
-                        <img className="w-48 h-auto  block rounded-full aspect-square mt-48" src={profile} alt=""/>
+                    <img className="w-48 h-auto block rounded-full aspect-square mt-64" src={profile} alt=""/>
+                    
+                    {/* Title banner */}
+                    <div className="text-7xl text-center leading-tight mt-14 mb-20">
+                        DATA SCIENTIST. NATURE LOVER. <br />
+                        LIFE LONG LEARNER
+                    </div>
 
-                        <div className="text-7xl text-center leading-tight">
-                            DATA SCIENTIST. NATURE LOVER. <br />
-                            LIFE LONG LEARNER
-                        </div>
+                    {/* Resume button */}
+                    <a style={{ border: "1px solid white" }} className="p-3 rounded-sm w-44 text-center text-lg"
+                    target="_blank" href="../assets/files/ravenwei_resume.pdf">
+                        <i className="fa-regular fa-file mr-2"></i> Resume
+                    </a>
 
-                        <a style={{ border: "1px solid white" }} className="p-4 rounded-sm w-44 text-center"
-                        target="_blank" href="../assets/files/ravenwei_resume.pdf">
-                            <i className="fa-regular fa-file mr-2"></i> Resume
-                        </a>
-
+                    {/* Welcome paragraph */}
+                    <div className="mt-80 text-6xl w-2/3 max-w-screen-xl">
+                        Hey! I'm Raven, twenty-one years old front-end developer. I make beautiful websites that will help you achieve your goals. Also, I'm interested in product and branding design. 
+                    </div>
                 </div>
             </div>
         </div>
