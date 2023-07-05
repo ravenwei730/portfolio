@@ -41,10 +41,15 @@ function App() {
                     {/* Portrait photo */}
                         <img className="w-48 h-auto  block rounded-full aspect-square mt-48" src={profile} alt=""/>
 
-                        <div className="text-7xl text-center">
+                        <div className="text-7xl text-center leading-tight">
                             DATA SCIENTIST. NATURE LOVER. <br />
                             LIFE LONG LEARNER
                         </div>
+
+                        <a style={{ border: "1px solid white" }} className="p-4 rounded-sm w-44 text-center"
+                        target="_blank" href="../assets/files/ravenwei_resume.pdf">
+                            <i className="fa-regular fa-file mr-2"></i> Resume
+                        </a>
 
                 </div>
             </div>
