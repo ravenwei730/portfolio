@@ -24,22 +24,22 @@ const Experiences = () => {
 
     const experiences = [
         {
-            time: "Feb. 2023 - Present",
-            title: "Software Developer",
-            company: "Stellar Services",
+            time: "date - date",
+            title: "Job Title",
+            company: "Company",
             flow: true
         },
         {
-            time: "Aug. 2021 - Aug. 2022",
-            title: "Data Instructor",
-            company: "DBC Edu and Tech Co.",
+            time: "date - date",
+            title: "Job Title",
+            company: "Company",
             flow: false
 
         },
         {
-            time: "Feb. 2019 - March. 2021",
-            title: "Account Executive",
-            company: "T-Mobile US",
+            time: "date - date",
+            title: "Job Title",
+            company: "Company",
             flow: true
         }
     ]
