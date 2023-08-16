@@ -153,12 +153,12 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
 
         const handleClose = () => {
           setSelectedProject(null);
-          setShowNextBtn(true);
+          if (!mobileView) setShowNextBtn(true);
         }
       
         return (
           <div className={`justify-self-center mt-16 mb-34 cp-transition cp-transition__container relative z-10 sm:mt-10`}>
-            {window.innerWidth < 541 && (
+            {mobileView && (
               <div id='project' className='absolute'
               style={{
                 marginTop: `-${projects.length * 304 + 184}px`
@@ -218,7 +218,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
                       transition={{ duration: 0.2, type: 'spring' }}
                       style={{
                         // minWidth: window.innerWidth > 1510 ? "415px" : "300px"
-                        minWidth: window.innerWidth > 1400 ? "415px" : "330px"
+                        minWidth: window.innerWidth > 1400 ? "415px" : mobileView ? "300" : "360px"
                       }}
                     >
                       <img className='rounded-t-2xl' src={project.img} alt="" />
