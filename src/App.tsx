@@ -22,6 +22,8 @@ import { motion } from "framer-motion";
 
 function App() {
 
+    const mobileView = window.innerWidth < 541;
+
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadFull(engine);
     }, []);
@@ -59,7 +61,7 @@ function App() {
 
             <SectionHeader title={"PROJECTS"} />
 
-            <Projects />
+            <Projects mobileView={mobileView}/>
 
             <SectionHeader title={"EXPERIENCE"} />
 

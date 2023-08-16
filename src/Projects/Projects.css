@@ -51,6 +51,11 @@
   align-items: center;
   background: transparent;
   max-width: 92%;
+  overflow-x: auto;
+}
+
+.cp-transition__squares-wrapper::-webkit-scrollbar {
+  display: none;
 }
   
 .card {
@@ -111,14 +116,14 @@
   fill: #0047BB;
   cursor: pointer;
   position: absolute;
-  top: 52.5%;
+  top: 48%;
   z-index: 2000;
 }
 
 .prev-btn {
-  left: 1.5%;
+  left: calc(2.4% - 16px);
 }
 
 .next-btn {
-  right: 1.5%;
+  right: calc(2.4% - 16px);
 }

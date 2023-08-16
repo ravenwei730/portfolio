@@ -38,7 +38,7 @@ type Project = {
   github: string;
 };
 
-const Projects = () => {
+const Projects = ({mobileView}: {mobileView: boolean}) => {
     const projects = [
         {
             name: "one",
@@ -103,6 +103,17 @@ const Projects = () => {
               behavior: 'smooth'
             });
           }
+          setShowPrevBtn(true);
+          if (divRef !== null) {
+            const handleScroll = () => {
+              const { scrollWidth, scrollLeft, clientWidth } = divRef;
+              setShowPrevBtn(scrollLeft > 0);
+              setShowNextBtn(scrollLeft + clientWidth < scrollWidth);
+            };
+            divRef.addEventListener('scroll', handleScroll);
+            handleScroll();
+            return () => divRef.removeEventListener('scroll', handleScroll);
+          }
         };
         
       
@@ -116,11 +127,44 @@ const Projects = () => {
               behavior: 'smooth'
             });
           }
+          if (divRef !== null) {
+            const handleScroll = () => {
+              const { scrollWidth, scrollLeft, clientWidth } = divRef;
+              setShowPrevBtn(scrollLeft > 0);
+              setShowNextBtn(scrollLeft + clientWidth < scrollWidth);
+            };
+            divRef.addEventListener('scroll', handleScroll);
+            handleScroll();
+            return () => divRef.removeEventListener('scroll', handleScroll);
+          }
         };
-        
+
+        const handleSelect = (project : Project) => {
+          setSelectedProject(project);
+            const projectElement = document.getElementById("project");
+            setShowPrevBtn(false);
+            setShowNextBtn(false);
+            if (projectElement) {
+              projectElement.scrollIntoView({
+                behavior: "smooth", 
+              });
+            }
+        }
+
+        const handleClose = () => {
+          setSelectedProject(null);
+          if (window.innerWidth < 1545 && !mobileView) setShowNextBtn(true);
+        }
       
         return (
           <div className={`justify-self-center mt-16 mb-34 cp-transition cp-transition__container relative z-10 sm:mt-10`}>
+            {window.innerWidth < 541 && (
+              <div id='project' className='absolute'
+              style={{
+                marginTop: `-${projects.length * 304 + 184}px`
+              }}
+              ></div>  
+            )}
             <AnimatePresence mode='wait' initial={false}>
               {selectedProject ? (
                 <motion.div 
@@ -133,7 +177,7 @@ const Projects = () => {
                 >
                 <img className="project-card-img rounded-l-2xl sm:rounded-t-2xl sm:rounded-bl-none sm:w-4/5" src={selectedProject.img} alt="" />
                 <div className='w-full px-12 py-6 flex flex-col sm:px-5 sm:py-6 sm:pb-4'>
-                  <button className='self-end' onClick={() => setSelectedProject(null)}>
+                  <button className='self-end' onClick={handleClose}>
                     <i className="fas fa-times fa-2x sm:text-base sm:absolute sm:right-10 sm:-mt-2"/>
                   </button>
                   <div className="card__header flex justify-between mb-4">
@@ -154,20 +198,22 @@ const Projects = () => {
                 </motion.div>
               ) : (
                 <motion.div 
-                  className="cp-transition__squares-wrapper flex overflow-x-auto" 
+                  className="cp-transition__squares-wrapper flex" 
                   key="squares"
                   variants={wrapperVariants}
                   initial="initial"
                   animate="animate"
                   exit="exit"
                   ref={scrollableDivRef}
-                  
+                  style={{
+                    flexDirection: mobileView ? "column" : "row"
+                  }}
                 >
                   {projects.map((project, i) => (
                     <motion.div 
                       key={i}
                       className={` square square--${project.name} flex flex-col items-center font-Mont relative`}
-                      onClick={() => setSelectedProject(project)}
+                      onClick={() => handleSelect(project)}
                       variants={squareVariants}
                       transition={{ duration: 0.2, type: 'spring' }}
                     >
@@ -190,9 +236,7 @@ const Projects = () => {
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 384 512"
             >
-              {/* ... (path data) */}
-        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
-
+            <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
             </svg>
             <svg 
               className="scroll-btn next-btn" 
@@ -201,9 +245,7 @@ const Projects = () => {
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 384 512"
             >
-              {/* ... (path data) */}
-        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
-
+            <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/>
             </svg>
           </div>
         );
