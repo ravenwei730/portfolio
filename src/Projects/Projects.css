@@ -86,9 +86,9 @@
   /* height: calc(100% + 2px); */
 }
 
-#project {
+/* #project {
   margin-top: -1172px;
-}
+} */
 
 @media (max-width: 540px) {
   .square {

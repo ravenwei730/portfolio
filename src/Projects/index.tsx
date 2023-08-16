@@ -66,6 +66,14 @@ const Projects = () => {
             desc: "Description for project 3",
             live: "https://github.com/ravenwei730",
             github: "https://github.com/ravenwei730"
+        },
+        {
+            name: "three",
+            title: "Project 3",
+            img: project3photo,
+            desc: "Description for project 3",
+            live: "https://github.com/ravenwei730",
+            github: "https://github.com/ravenwei730"
         }
         ];
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -105,7 +113,11 @@ const Projects = () => {
   return (
     <div className={`justify-self-center mt-16 mb-34 cp-transition cp-transition__container relative z-10 sm:mt-10`}>
       {window.innerWidth < 541 && (
-        <div id='project' className='absolute'></div>  
+        <div id='project' className='absolute'
+        style={{
+          marginTop: `-${projects.length * 304 + 384}px`
+        }}
+        ></div>  
       )}
       <AnimatePresence mode='wait' initial={false}>
         {selectedProject 
