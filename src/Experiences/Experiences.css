@@ -1,0 +1,17 @@
+.experience-timeline {
+    background-color: white;
+}
+
+[data-darkmode=false] .experience-timeline {
+    background-color: #222;
+}
+.timeline-dots {
+    margin-left: -12px;
+    width: 9px;
+    height: 9px;
+}
+
+[data-darkmode=false] .timeline-dots {
+    background-color: #222;
+}
+

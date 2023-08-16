@@ -1,0 +1,51 @@
+.theme-switch {
+    height: 40px;
+    width: 72px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, 
+                      rgb(243, 231, 194) 20%, 
+                      rgb(238, 188, 71) 100.2%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .theme-switch-knob {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .theme-icon {
+    color: #e8a62b;
+  }
+  
+  [data-darkmode="true"] .theme-switch {
+    background-image: linear-gradient(109.8deg,
+                      rgb(10, 1, 18) -5.2%, 
+                      rgb(42, 5, 189) -5.2%, 
+                      rgb(68, 120, 216) 103.3%);
+  }
+  
+  [data-darkmode="true"] .theme-icon {
+    color: rgb(42, 5, 189);
+  }
+  
+  @media (max-width: 540px) {
+    .theme-switch {
+      width: 34px;
+      height: 34px;
+    }
+    .theme-switch-knob {
+      width: 24px;
+      height: 24px;
+    }
+  }
