@@ -128,3 +128,7 @@
 .next-btn {
   right: calc(2.4% - 16px);
 }
+
+[data-darkmode = false ] .scroll-btn{
+  fill: #a09f9f;
+}
