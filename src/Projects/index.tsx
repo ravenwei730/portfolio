@@ -153,7 +153,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
 
         const handleClose = () => {
           setSelectedProject(null);
-          if (window.innerWidth < 1545 && !mobileView) setShowNextBtn(true);
+          setShowNextBtn(true);
         }
       
         return (
@@ -206,7 +206,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
                   exit="exit"
                   ref={scrollableDivRef}
                   style={{
-                    flexDirection: mobileView ? "column" : "row"
+                    flexDirection: mobileView ? "column" : "row",
                   }}
                 >
                   {projects.map((project, i) => (
@@ -216,6 +216,10 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
                       onClick={() => handleSelect(project)}
                       variants={squareVariants}
                       transition={{ duration: 0.2, type: 'spring' }}
+                      style={{
+                        // minWidth: window.innerWidth > 1510 ? "415px" : "300px"
+                        minWidth: window.innerWidth > 1400 ? "415px" : "330px"
+                      }}
                     >
                       <img className='rounded-t-2xl' src={project.img} alt="" />
                       <div className='p-4 flex flex-col items-center'>

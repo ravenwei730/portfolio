@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1545px;
+    align-self: center;
 }
 
 /* @media (max-width: 768px) {
@@ -18,7 +20,6 @@
   position: relative;
   height: 100%;
   width: 33%;
-  min-width: 300px;
   max-width: 415px;
   /* max-height: 690px; */
   margin: 26px;
@@ -50,7 +51,7 @@
   /* justify-content: center; */
   align-items: center;
   background: transparent;
-  max-width: 92%;
+  width: 92%;
   overflow-x: auto;
 }
 
