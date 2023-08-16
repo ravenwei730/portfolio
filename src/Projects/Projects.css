@@ -18,6 +18,7 @@
   position: relative;
   height: 100%;
   width: 33%;
+  min-width: 300px;
   max-width: 415px;
   /* max-height: 690px; */
   margin: 26px;
@@ -46,9 +47,10 @@
 .cp-transition__squares-wrapper {
   height: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background: transparent;
+  max-width: 92%;
 }
   
 .card {
@@ -101,4 +103,22 @@
   .card__header h2{
     font-size: 16px;
   }
+}
+
+.scroll-btn {
+  height: 20px;
+  width: 20px;
+  fill: #0047BB;
+  cursor: pointer;
+  position: absolute;
+  top: 52.5%;
+  z-index: 2000;
+}
+
+.prev-btn {
+  left: 1.5%;
+}
+
+.next-btn {
+  right: 1.5%;
 }
