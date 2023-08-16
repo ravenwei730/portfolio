@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f801f556.css",
-    "main.js": "/portfolio/static/js/main.c9d9fa1e.js",
-    "static/media/Montserrat.ttf": "/portfolio/static/media/Montserrat.3faa3eef13649db02044.ttf",
-    "static/media/raven-profile.jpg": "/portfolio/static/media/raven-profile.cf12e3ca9790763f83f6.jpg",
-    "static/media/ravenwei_resume.pdf": "/portfolio/static/media/ravenwei_resume.56bb49dcf2ad2f0ee315.pdf",
-    "static/media/arrow.svg": "/portfolio/static/media/arrow.0b4e538b05cc87f22390abdd94caae79.svg",
-    "index.html": "/portfolio/index.html",
-    "main.f801f556.css.map": "/portfolio/static/css/main.f801f556.css.map",
-    "main.c9d9fa1e.js.map": "/portfolio/static/js/main.c9d9fa1e.js.map"
+    "main.css": "/raven-portfolio/static/css/main.638e1711.css",
+    "main.js": "/raven-portfolio/static/js/main.b7fe56e5.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/raven-portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/profile_photo.jpg": "/raven-portfolio/static/media/profile_photo.cf12e3ca9790763f83f6.jpg",
+    "static/media/project1.png": "/raven-portfolio/static/media/project1.a57e3d67b0514ab3f441.png",
+    "static/media/project2.png": "/raven-portfolio/static/media/project2.a57e3d67b0514ab3f441.png",
+    "static/media/project3.png": "/raven-portfolio/static/media/project3.a57e3d67b0514ab3f441.png",
+    "static/media/seaborn.svg": "/raven-portfolio/static/media/seaborn.f7cb19147f444e71e63576a8d7c4f2a4.svg",
+    "index.html": "/raven-portfolio/index.html",
+    "main.638e1711.css.map": "/raven-portfolio/static/css/main.638e1711.css.map",
+    "main.b7fe56e5.js.map": "/raven-portfolio/static/js/main.b7fe56e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f801f556.css",
-    "static/js/main.c9d9fa1e.js"
+    "static/css/main.638e1711.css",
+    "static/js/main.b7fe56e5.js"
   ]
 }
