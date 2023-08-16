@@ -9,17 +9,17 @@ const contactButtons = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/hannnmc",
+    url: "https://github.com/ravenwei730",
     icon: "fa-brands fa-square-github",
   },
-  {
-    name: "AngelList",
-    url: "https://angel.co/u/han-chen-17",
-    icon: "fa-brands fa-angellist",
-  },
+  // {
+  //   name: "AngelList",
+  //   url: "https://angel.co/u/han-chen-17",
+  //   icon: "fa-brands fa-angellist",
+  // },
   {
     name: "Email",
-    url: "mailto:han.c91028@gmail.com",
+    url: "mailto:ravenwei730@gmail.com",
     icon: "fa-regular fa-envelope",
   },
 ];

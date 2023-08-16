@@ -51,7 +51,7 @@ function App() {
                     <img  className="object-cover" src={profilePhoto} alt="han" />
                 </div>
                 <span className="text-inherit text-4xl font-semibold font-Mont mt-12 sm:mt-10 sm:text-3xl">
-                    Hi, I'm Han!
+                    Hi, I'm Raven!
                 </span>
             </div>
 
@@ -79,7 +79,7 @@ function App() {
 
             <motion.a 
             target='_blank' 
-            href='/Han_Chen_Resume.pdf'
+            href='/Resume.pdf'
             className="resume-button font-Mont self-center text-xl px-4 py-3 flex gap-2 rounded-xl mt-24 sm:py-2 sm:px-3 sm:text-base sm:mt-8"
             whileHover={{scale : 1.1}}
             >

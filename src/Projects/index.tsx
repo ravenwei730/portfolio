@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Projects.css';
-import project1photo from "../assets/images/cozybnb_home.png";
-import project2photo from "../assets/images/aviquest.png";
-import project3photo from "../assets/images/budgit.png";
+import project1photo from "../assets/images/project1.png";
+import project2photo from "../assets/images/project2.png";
+import project3photo from "../assets/images/project3.png";
 
 
 const wrapperVariants = {
@@ -45,27 +45,27 @@ const Projects = () => {
     const projects = [
         {
             name: "one",
-            title: "Cozybnb",
+            title: "Project 1",
             img: project1photo,
-            desc: "Cozybnb is a Full stack Airbnb replica with core interactive features for browsing properties, making reservations, and writing reviews. It's built utilizing React/Redux front-end (JavaScript) and Ruby on Rails back-end while incorporating Authentication, Google Maps, Places, Geocoding APIs, and AWS S3 for a seamless user experience. Leveraging Media Queries and Flexbox CSS, Cozybnb is fully web-responsive and mobile friendly.",
-            live: "https://cozy-bnb.herokuapp.com/",
-            github: "https://github.com/hannnmc/Cozybnb"
+            desc: "Description for project 1",
+            live: "https://github.com/ravenwei730",
+            github: "https://github.com/ravenwei730"
         },
         {
             name: "two",
-            title: "Aviquest",
+            title: "Project 2",
             img: project2photo,
-            desc: "Aviquest is a gamified task manager, aimed at fostering positive habits and goal achievement. Built by a dedicated team of four engineers, the application utilizes the MERN (MongoDB, Express, React, Node) Stack. By completing tasks and embarking on quests, users can access interactive features like Avatar customization, gear progression, Gachapon rewards, and real-time health management. Achieved via asynchronous components, Sprite animations, and carefully timed triggers.",
-            live: "https://aviquest.herokuapp.com/",
-            github: "https://github.com/whilekofman/aviquest"
+            desc: "Description for project 2",
+            live: "https://github.com/ravenwei730",
+            github: "https://github.com/ravenwei730"
         },
         {
             name: "three",
-            title: "Budgit",
+            title: "Project 3",
             img: project3photo,
-            desc: "Budgit is a single-page budget tracking application that helps users manage their finance through data visualization. Developed with Vanilla JavaScript, DOM manipulation, Chart.js, and Local Storage, users can log daily transactions, monthly income, and one-time earnings. Users can view their spending habits by day, week, month, and categories, enabling informed financial decisions and budgeting.",
-            live: "https://hannnmc.github.io/Budgit/",
-            github: "https://github.com/hannnmc/Budgit"
+            desc: "Description for project 3",
+            live: "https://github.com/ravenwei730",
+            github: "https://github.com/ravenwei730"
         }
         ];
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
