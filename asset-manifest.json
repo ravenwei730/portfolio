@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.df37c753.css",
-    "main.js": "/portfolio/static/js/main.20f98bd6.js",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/profile_photo.jpg": "/portfolio/static/media/profile_photo.cf12e3ca9790763f83f6.jpg",
-    "static/media/project1.png": "/portfolio/static/media/project1.a57e3d67b0514ab3f441.png",
-    "static/media/project2.png": "/portfolio/static/media/project2.a57e3d67b0514ab3f441.png",
-    "static/media/project3.png": "/portfolio/static/media/project3.a57e3d67b0514ab3f441.png",
-    "static/media/seaborn.svg": "/portfolio/static/media/seaborn.f7cb19147f444e71e63576a8d7c4f2a4.svg",
-    "index.html": "/portfolio/index.html",
-    "main.df37c753.css.map": "/portfolio/static/css/main.df37c753.css.map",
-    "main.20f98bd6.js.map": "/portfolio/static/js/main.20f98bd6.js.map"
+    "main.css": "/static/css/main.7c13a7ad.css",
+    "main.js": "/static/js/main.49a1f35a.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/profile_photo.jpg": "/static/media/profile_photo.cf12e3ca9790763f83f6.jpg",
+    "static/media/project1.png": "/static/media/project1.a57e3d67b0514ab3f441.png",
+    "static/media/project2.png": "/static/media/project2.a57e3d67b0514ab3f441.png",
+    "static/media/project3.png": "/static/media/project3.a57e3d67b0514ab3f441.png",
+    "static/media/seaborn.svg": "/static/media/seaborn.f7cb19147f444e71e63576a8d7c4f2a4.svg",
+    "index.html": "/index.html",
+    "main.7c13a7ad.css.map": "/static/css/main.7c13a7ad.css.map",
+    "main.49a1f35a.js.map": "/static/js/main.49a1f35a.js.map"
   },
   "entrypoints": [
-    "static/css/main.df37c753.css",
-    "static/js/main.20f98bd6.js"
+    "static/css/main.7c13a7ad.css",
+    "static/js/main.49a1f35a.js"
   ]
 }
