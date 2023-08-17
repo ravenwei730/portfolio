@@ -77,7 +77,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         const scrollableDivRef = useRef<HTMLDivElement | null>(null); 
         const [showPrevBtn, setShowPrevBtn] = useState(false);
         const [showNextBtn, setShowNextBtn] = useState(false);
-        const presetScroll = 300;
+        const presetScroll = 415;
       
         useEffect(() => {
           const divRef = scrollableDivRef.current;
