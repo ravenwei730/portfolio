@@ -94,6 +94,11 @@
   /* height: calc(100% + 2px); */
 }
 
+.project-thumbnail {
+  object-fit: cover;
+  aspect-ratio: 1.399;
+}
+
 /* #project {
   margin-top: -1172px;
 } */

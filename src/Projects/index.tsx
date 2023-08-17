@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './Projects.css';
-import project1photo from "../assets/images/project1.png";
+import project1photo from "../assets/images/population_density.jpg";
+import project2photo from "../assets/images/fandango1.jpg";
+import project3photo from "../assets/images/datascience2.jpg";
+import placeholder from "../assets/images/project1.png";
 
 const wrapperVariants = {
   initial: {
@@ -42,32 +45,32 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
     const projects = [
         {
             name: "one",
-            title: "Project 1",
+            title: "World Population Data",
             img: project1photo,
             desc: "Description for project 1",
-            live: "https://github.com/ravenwei730",
-            github: "https://github.com/ravenwei730"
+            live: "https://nbviewer.org/github/ravenwei730/WorldPopulation/blob/main/CIA%20Factbook%20Data%20Analysis.ipynb",
+            github: "https://github.com/ravenwei730/WorldPopulation"
         },
         {
             name: "two",
-            title: "Project 2",
-            img: project1photo,
+            title: "Fandango Ratings Analysis",
+            img: project2photo,
             desc: "Description for project 2",
-            live: "https://github.com/ravenwei730",
-            github: "https://github.com/ravenwei730"
+            live: "https://nbviewer.org/github/ravenwei730/FandangoRatings/blob/main/Investigating%20Fandango%20Movie%20Ratings.ipynb",
+            github: "https://github.com/ravenwei730/FandangoRatings"
         },
         {
             name: "three",
-            title: "Project 3",
-            img: project1photo,
+            title: "Popular Data Science Topics",
+            img: project3photo,
             desc: "Description for project 3",
-            live: "https://github.com/ravenwei730",
-            github: "https://github.com/ravenwei730"
+            live: "https://nbviewer.org/github/ravenwei730/PopularDataScienceQuestions/blob/main/Popular%20Data%20Science%20Questions.ipynb",
+            github: "https://github.com/ravenwei730/PopularDataScienceQuestions"
         },
         {
             name: "four",
-            title: "Project 4",
-            img: project1photo,
+            title: "Business Decisions Through SQL",
+            img: placeholder,
             desc: "Description for project 4",
             live: "https://github.com/ravenwei730",
             github: "https://github.com/ravenwei730"
@@ -77,7 +80,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         const scrollableDivRef = useRef<HTMLDivElement | null>(null); 
         const [showPrevBtn, setShowPrevBtn] = useState(false);
         const [showNextBtn, setShowNextBtn] = useState(false);
-        const presetScroll = 415;
+        const presetScroll = 467;
       
         useEffect(() => {
           const divRef = scrollableDivRef.current;
@@ -221,7 +224,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
                         minWidth: window.innerWidth > 1400 ? "415px" : mobileView ? "300" : "360px"
                       }}
                     >
-                      <img className='rounded-t-2xl' src={project.img} alt="" />
+                      <img className='project-thumbnail rounded-t-2xl' src={project.img} alt="" />
                       <div className='p-4 flex flex-col items-center'>
                         <span className='text-l font-semibold'>{project.title}</span>
                       </div>
