@@ -7,7 +7,7 @@ const Intro = () => {
 
 
     const introduction2 = 
-    "When I'm not coding, I enjoy exploring national parks, hiking, surfing, cycling, and all kinds of outdoor activities."
+    "During my free time, I enjoy reading, surfing, cycling, hiking, and all kinds of outdoor activities."
 
     return ( 
         <div className="self-center mt-24 w-1/2 text-xl text-center font-Mont sm:w-3/4 sm:mt-10 sm:text-base">

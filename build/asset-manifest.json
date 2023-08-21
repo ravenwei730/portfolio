@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.64a073b3.css",
-    "main.js": "/portfolio/static/js/main.96fa662e.js",
+    "main.css": "/portfolio/static/css/main.ce3bd1a9.css",
+    "main.js": "/portfolio/static/js/main.38cf3055.js",
     "static/media/population_density.jpg": "/portfolio/static/media/population_density.0e8efd198ab6e3941176.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/fandango1.jpg": "/portfolio/static/media/fandango1.f188ba55efd619f6683c.jpg",
     "static/media/profile_photo.jpg": "/portfolio/static/media/profile_photo.cf12e3ca9790763f83f6.jpg",
     "static/media/datascience2.jpg": "/portfolio/static/media/datascience2.10bc64f1642e74c1e1d4.jpg",
-    "static/media/project1.png": "/portfolio/static/media/project1.a57e3d67b0514ab3f441.png",
     "static/media/seaborn.svg": "/portfolio/static/media/seaborn.f7cb19147f444e71e63576a8d7c4f2a4.svg",
+    "static/media/bestmarket1.jpg": "/portfolio/static/media/bestmarket1.9a5b86e489c378ad5e47.jpg",
     "index.html": "/portfolio/index.html",
-    "main.64a073b3.css.map": "/portfolio/static/css/main.64a073b3.css.map",
-    "main.96fa662e.js.map": "/portfolio/static/js/main.96fa662e.js.map"
+    "main.ce3bd1a9.css.map": "/portfolio/static/css/main.ce3bd1a9.css.map",
+    "main.38cf3055.js.map": "/portfolio/static/js/main.38cf3055.js.map"
   },
   "entrypoints": [
-    "static/css/main.64a073b3.css",
-    "static/js/main.96fa662e.js"
+    "static/css/main.ce3bd1a9.css",
+    "static/js/main.38cf3055.js"
   ]
 }
