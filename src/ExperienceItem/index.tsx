@@ -26,22 +26,22 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({time, title, company, fl
         window.innerHeight < 1200 ? 
         ["0 1", "4 1"]
         :
-        ["2 1", "6 1"]
+        ["1.2 1", "4 1"]
     });
 
     const xScales = mobileView ?
     [
-        flow ? -10 : (windowWidth) - 176,
-        flow ? (windowWidth / 2) - 195 : (windowWidth /2) -3
+        flow ? -10 : (windowWidth) - 160,
+        flow ? (windowWidth / 2) - 182 : (windowWidth /2) + 6
     ] : 
         window.innerWidth < 1200 ?
     [
         flow ? (windowWidth /10 - 40) : (windowWidth /1.11 - 372),
-        flow ? (windowWidth / 2) - 394 : (windowWidth /2) - 30
+        flow ? (windowWidth / 2) - 394 : (windowWidth /2) + 24 
     ] :
     [
         flow ? (windowWidth /10) : (windowWidth /1.11 - 376),
-        flow ? (windowWidth / 2) - 394 : (windowWidth /2) - 30
+        flow ? (windowWidth / 2) - 394 : (windowWidth /2) + 20
     ]
     
     useEffect(() => {
@@ -85,7 +85,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({time, title, company, fl
                 ]),
             opacity: opacityScale
         }}
-        className="flex flex-col w-96 text-center gap-2 mb-6 scale-50 sm:w-48"
+        className="experience-float flex flex-col w-330 h-136 justify-center text-center gap-2 mb-6 scale-50 sm:w-44 sm:h-120"
         >
             <span className="text-sm opacity-75 sm:text-xs">
                 {time}

@@ -15,3 +15,27 @@
     background-color: #222;
 }
 
+.timeline-div {
+    height: 630px;
+    margin-top: -630px;
+}
+
+.experience-timeline {
+    height: 630px;
+}
+
+.experience-float {
+    /* width: 330px;
+    height: 136px; */
+
+}
+
+@media (max-width: 540px) {
+    .timeline-div {
+        height: 594px;
+        margin-top: -591px;
+    }
+    .experience-timeline {
+        height: 600px;
+    }
+}

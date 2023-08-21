@@ -13,7 +13,7 @@ const Experiences = () => {
     const { scrollYProgress } = useScroll({
         target: ref,
         offset: mobileView ? 
-        ["-1 1", "1.25 1"] : 
+        ["-.3 1", "1.1 1"] : 
         ["0 1", "1.85 1"]
     })
 
@@ -24,23 +24,28 @@ const Experiences = () => {
 
     const experiences = [
         {
-            time: "date - date",
-            title: "Job Title",
-            company: "Company",
+            time: "Jun. 2021 - Jun. 2022",
+            title: "Business Analyst",
+            company: "Tianfu Greenway",
             flow: true
         },
         {
-            time: "date - date",
-            title: "Job Title",
-            company: "Company",
+            time: "Mar. 2020 - May. 2021",
+            title: "Business Dev. Analyst",
+            company: "Asian Creative Foundation",
             flow: false
-
         },
         {
-            time: "date - date",
-            title: "Job Title",
-            company: "Company",
+            time: "Dec. 2019 - Mar. 2020",
+            title: "Curator Assistant",
+            company: "FLAG Art Foundation",
             flow: true
+        },
+            {
+            time: "Aug. 2018 - Feb. 2019",
+            title: "Business Analyst Intern",
+            company: "Royal Oak Foundation",
+            flow: false
         }
     ]
     return ( 
@@ -59,7 +64,7 @@ const Experiences = () => {
                 />
             )}
             
-        <motion.div className="flex items-center justify-center h-96 relative -mt-96 mb-24 sm:-mt-80 sm:h-80"
+        <motion.div className="timeline-div flex items-center justify-center relative mb-24 sm:-mt-80 sm:h-80"
         ref={ref}
         style={{
             opacity: opacityScale

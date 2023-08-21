@@ -3,11 +3,11 @@ import React from "react";
 const Intro = () => {
 
     const introduction1 = 
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "Hello, I'm Raven, a data/business analyst with expertise in ecological urban project planning. My objective is to apply strategic approaches to link data insights with practical real-world applications. My aspiration and drive is to innovate and enhance processes to foster sustainability and drive greater efficiencies."
 
 
     const introduction2 = 
-    "When I'm not coding, I enjoy exploring hobby 1, hobby 2, hobby 3, more..."
+    "When I'm not coding, I enjoy exploring national parks, hiking, surfing, cycling, and all kinds of outdoor activities."
 
     return ( 
         <div className="self-center mt-24 w-1/2 text-xl text-center font-Mont sm:w-3/4 sm:mt-10 sm:text-base">
