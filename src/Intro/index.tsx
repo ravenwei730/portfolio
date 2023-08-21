@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
 
     const introduction1 = 
-    "Hello, I'm Raven, a data/business analyst with expertise in ecological urban project planning. My objective is to apply strategic approaches to link data insights with practical real-world applications. My aspiration and drive is to innovate and enhance processes to foster sustainability and drive greater efficiencies."
+    "Hello, I'm Raven, a Data/Business Analyst with expertise in ecological urban project planning. My objective is to apply strategic approaches to link data insights with practical real-world applications. My aspiration and drive is to innovate and enhance processes to foster sustainability and drive greater efficiencies."
 
 
     const introduction2 = 
