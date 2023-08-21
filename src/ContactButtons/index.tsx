@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const contactButtons = [
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/hanchen28/",
+    url: "https://www.linkedin.com/in/wei-wei-5954a7153/",
     icon: "fa-brands fa-linkedin",
   },
   {
