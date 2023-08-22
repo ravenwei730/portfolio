@@ -81,7 +81,7 @@ function App() {
 
             <motion.a 
             target='_blank' 
-            href='/Resume.pdf'
+            href='/portfolio/Resume.pdf'
             className="resume-button font-Mont self-center text-xl px-4 py-3 flex gap-2 rounded-xl mt-24 sm:py-2 sm:px-3 sm:text-base sm:mt-8"
             whileHover={{scale : 1.1}}
             >
