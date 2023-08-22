@@ -46,7 +46,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
     const projects = [
         {
             name: "one",
-            title: "Market Insights: Population Data Analysis",
+            title: "Market Insights: Population Analysis",
             img: project1photo,
             desc: "This project utilized SQL to analyze global territories using demographic indicators such as population, mortality, and fertility.",
             live: "https://nbviewer.org/github/ravenwei730/WorldPopulation/blob/main/CIA%20Factbook%20Data%20Analysis.ipynb",
@@ -70,7 +70,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         },
         {
             name: "four",
-            title: "Identifying Optimal Advertising Markets",
+            title: "Comparing Advertising Markets",
             img: project4photo,
             desc: "In this project analyzes survey data from people new to coding. The goal is to figure out the two best places to advertise for an online learning company that teaches programming, with a focus on web development, data science, and game development courses. We dug into the data to find the most promising markets for promoting these courses effectively.",
             live: "https://nbviewer.org/github/ravenwei730/BestMarketAdvertise/blob/main/Finding%20the%20Best%20Markets%20to%20Advertise%20In.ipynb",
