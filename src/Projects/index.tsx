@@ -46,7 +46,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
     const projects = [
         {
             name: "one",
-            title: "World Population Data",
+            title: "Market Insights: Population Data Analysis",
             img: project1photo,
             desc: "This project utilized SQL to analyze global territories using demographic indicators such as population, mortality, and fertility.",
             live: "https://nbviewer.org/github/ravenwei730/WorldPopulation/blob/main/CIA%20Factbook%20Data%20Analysis.ipynb",
@@ -54,7 +54,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         },
         {
             name: "two",
-            title: "Fandango Ratings Analysis",
+            title: "Investigating Fandango Movie Ratings",
             img: project2photo,
             desc: "This project examines Fandango's movie ratings data to determine whether any alterations have been made to improve the fairness of ratings within the Fandango's rating system.",
             live: "https://nbviewer.org/github/ravenwei730/FandangoRatings/blob/main/Investigating%20Fandango%20Movie%20Ratings.ipynb",
@@ -62,7 +62,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         },
         {
             name: "three",
-            title: "Popular Data Science Topics",
+            title: "Trending Data Science Topics",
             img: project3photo,
             desc: "This project analyzes the Data Science Stack Exchange to identify the types of content that a data science education company should create, based on user activities.",
             live: "https://nbviewer.org/github/ravenwei730/PopularDataScienceQuestions/blob/main/Popular%20Data%20Science%20Questions.ipynb",
@@ -70,7 +70,7 @@ const Projects = ({mobileView}: {mobileView: boolean}) => {
         },
         {
             name: "four",
-            title: "Finding the Best Markets to Advertise In",
+            title: "Identifying Optimal Advertising Markets",
             img: project4photo,
             desc: "In this project analyzes survey data from people new to coding. The goal is to figure out the two best places to advertise for an online learning company that teaches programming, with a focus on web development, data science, and game development courses. We dug into the data to find the most promising markets for promoting these courses effectively.",
             live: "https://nbviewer.org/github/ravenwei730/BestMarketAdvertise/blob/main/Finding%20the%20Best%20Markets%20to%20Advertise%20In.ipynb",
