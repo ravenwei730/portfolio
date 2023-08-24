@@ -101,7 +101,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({time, title, company, fl
         </motion.div>
         {!mobileView && (
             <motion.div
-            className="timeline-dots rounded-full absolute bg-white -mt-20"
+            className="timeline-dots rounded-full absolute bg-white -mt-24"
             style={{
                 opacity: dotOpacityScale,
                 x: window.innerWidth/2
