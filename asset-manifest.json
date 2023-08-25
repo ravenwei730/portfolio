@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d5202316.css",
-    "main.js": "/portfolio/static/js/main.74cf6580.js",
+    "main.js": "/portfolio/static/js/main.8d28f402.js",
     "static/media/population_density.jpg": "/portfolio/static/media/population_density.0f01602c5f29f576466b.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/fandango1.jpg": "/portfolio/static/media/fandango1.f188ba55efd619f6683c.jpg",
@@ -11,10 +11,10 @@
     "static/media/bestmarket1.jpg": "/portfolio/static/media/bestmarket1.9a5b86e489c378ad5e47.jpg",
     "index.html": "/portfolio/index.html",
     "main.d5202316.css.map": "/portfolio/static/css/main.d5202316.css.map",
-    "main.74cf6580.js.map": "/portfolio/static/js/main.74cf6580.js.map"
+    "main.8d28f402.js.map": "/portfolio/static/js/main.8d28f402.js.map"
   },
   "entrypoints": [
     "static/css/main.d5202316.css",
-    "static/js/main.74cf6580.js"
+    "static/js/main.8d28f402.js"
   ]
 }
