@@ -15,6 +15,9 @@ module.exports = {
       width: {
         '330': '330px'
       },
+      fontSize: {
+        'xxs': '10px'
+      }
     },
     screens: {
       'sm': {'max': '540px'}
