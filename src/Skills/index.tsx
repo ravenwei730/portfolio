@@ -3,6 +3,8 @@ import { useAnimation, useInView } from "framer-motion";
 import "./Skills.css";
 import SkillItem from "../SkillItem";
 import seaborn from "../assets/images/icons/seaborn.svg";
+import powerbi from "../assets/images/icons/New_Power_BI_Logo.svg"
+import synapse from "../assets/images/icons/Azure-Synapse-Analytics.svg"
 
 interface Skill {
     name: string;
@@ -22,7 +24,9 @@ const skillsData: Skill[] = [
   { name: 'PostgreSQL', img: 'https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg', url: 'https://www.postgresql.org/' },
   { name: 'SQLite3', img: 'https://github.com/get-icon/geticon/raw/master/icons/sqlite.svg', url: 'https://www.sqlite.org/' },
   { name: 'Excel', img: 'https://github.com/get-icon/geticon/raw/master/icons/microsoft-office-excel.svg', url: 'https://www.microsoft.com/en-us/microsoft-365/excel' },
-  { name: 'Seaborn', img: seaborn, url: 'https://seaborn.pydata.org/' }
+  { name: 'Seaborn', img: seaborn, url: 'https://seaborn.pydata.org/' },
+  { name: 'Azure Synapse', img: synapse, url: 'https://azure.microsoft.com/en-us/products/synapse-analytics' },
+  { name: 'Power BI', img: powerbi, url: 'https://powerbi.microsoft.com/en-us/desktop/' },
 ];
 
   function Skills() {
