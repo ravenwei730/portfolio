@@ -41,27 +41,27 @@ const Experiences = () => {
 
     const experiences = [
         {
+            time: "Dec. 2023 - Present",
+            title: "Project Analyst",
+            company: "Stellar Services",
+            flow: true
+        },
+        {
+            time: "Mar. 2020 - Present",
+            title: "Business Dev. Analyst",
+            company: "Asian Creative Foundation",
+            flow: false
+        },
+        {
             time: "Jun. 2021 - Jun. 2022",
             title: "Business Analyst",
             company: "Tianfu Greenway",
             flow: true
         },
         {
-            time: "Mar. 2020 - May. 2021",
-            title: "Business Dev. Analyst",
-            company: "Asian Creative Foundation",
-            flow: false
-        },
-        {
             time: "Dec. 2019 - Mar. 2020",
             title: "Curator Assistant",
             company: "FLAG Art Foundation",
-            flow: true
-        },
-            {
-            time: "Aug. 2018 - Feb. 2019",
-            title: "Business Analyst Intern",
-            company: "Royal Oak Foundation",
             flow: false
         }
     ]
