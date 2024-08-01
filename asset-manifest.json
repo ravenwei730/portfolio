@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e8e85fd0.css",
-    "main.js": "/portfolio/static/js/main.e0a3b761.js",
+    "main.css": "/portfolio/static/css/main.02312380.css",
+    "main.js": "/portfolio/static/js/main.a86d11af.js",
     "static/media/population_density.jpg": "/portfolio/static/media/population_density.0f01602c5f29f576466b.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/fandango1.jpg": "/portfolio/static/media/fandango1.f188ba55efd619f6683c.jpg",
     "static/media/profile_photo.jpg": "/portfolio/static/media/profile_photo.cf12e3ca9790763f83f6.jpg",
     "static/media/datascience2.jpg": "/portfolio/static/media/datascience2.10bc64f1642e74c1e1d4.jpg",
-    "static/media/seaborn.svg": "/portfolio/static/media/seaborn.f7cb19147f444e71e63576a8d7c4f2a4.svg",
+    "static/media/seaborn.svg": "/portfolio/static/media/seaborn.63009b9f0b2e1128096739b084e3232b.svg",
     "static/media/bestmarket1.jpg": "/portfolio/static/media/bestmarket1.9a5b86e489c378ad5e47.jpg",
-    "static/media/New_Power_BI_Logo.svg": "/portfolio/static/media/New_Power_BI_Logo.7a4f4c21abc59e7dcad2941ebe478d49.svg",
+    "static/media/New_Power_BI_Logo.svg": "/portfolio/static/media/New_Power_BI_Logo.b96e43b4244c77289eb6efc97218d590.svg",
     "static/media/Azure-Synapse-Analytics.svg": "/portfolio/static/media/Azure-Synapse-Analytics.afe47d200e0234114358003525b323da.svg",
     "index.html": "/portfolio/index.html",
-    "main.e8e85fd0.css.map": "/portfolio/static/css/main.e8e85fd0.css.map",
-    "main.e0a3b761.js.map": "/portfolio/static/js/main.e0a3b761.js.map"
+    "main.02312380.css.map": "/portfolio/static/css/main.02312380.css.map",
+    "main.a86d11af.js.map": "/portfolio/static/js/main.a86d11af.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8e85fd0.css",
-    "static/js/main.e0a3b761.js"
+    "static/css/main.02312380.css",
+    "static/js/main.a86d11af.js"
   ]
 }
