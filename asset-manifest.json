@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.02312380.css",
-    "main.js": "/portfolio/static/js/main.a86d11af.js",
+    "main.css": "/portfolio/static/css/main.301b5ee1.css",
+    "main.js": "/portfolio/static/js/main.9d7520a3.js",
     "static/media/population_density.jpg": "/portfolio/static/media/population_density.0f01602c5f29f576466b.jpg",
     "static/media/Montserrat-VariableFont_wght.ttf": "/portfolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/fandango1.jpg": "/portfolio/static/media/fandango1.f188ba55efd619f6683c.jpg",
@@ -12,11 +12,11 @@
     "static/media/New_Power_BI_Logo.svg": "/portfolio/static/media/New_Power_BI_Logo.b96e43b4244c77289eb6efc97218d590.svg",
     "static/media/Azure-Synapse-Analytics.svg": "/portfolio/static/media/Azure-Synapse-Analytics.afe47d200e0234114358003525b323da.svg",
     "index.html": "/portfolio/index.html",
-    "main.02312380.css.map": "/portfolio/static/css/main.02312380.css.map",
-    "main.a86d11af.js.map": "/portfolio/static/js/main.a86d11af.js.map"
+    "main.301b5ee1.css.map": "/portfolio/static/css/main.301b5ee1.css.map",
+    "main.9d7520a3.js.map": "/portfolio/static/js/main.9d7520a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.02312380.css",
-    "static/js/main.a86d11af.js"
+    "static/css/main.301b5ee1.css",
+    "static/js/main.9d7520a3.js"
   ]
 }
